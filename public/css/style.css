@@ -130,3 +130,21 @@ text-decoration: underline;
    width: 100%;
    border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .search-input {
+    width: 100%;
+    padding: 0.4rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-search {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 14rem !important;
+  }
+}
